@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+#inputBox {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-color: darkcyan;
+}
+#addButton {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#addButton:hover {
+    background-color: whitesmoke;
+}
+.itemBox {
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.removeButton {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+}
+.removeButton:hover {
+    background-color: darkred;
+}
+#Container{
+    display: flex;
+    border: 5px solid red;
+    height: 700px;
+}
